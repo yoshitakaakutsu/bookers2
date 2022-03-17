@@ -52,6 +52,11 @@
   text-decoration: none;
   background-color: transparent;
 }
+.navbar-expand-lg .navbar-collapse{
+  display: flex;
+  flex-basis: auto;
+}
+
 
 .navbar-collapse{
   flex-grow: 1;

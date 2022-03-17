@@ -6,6 +6,6 @@ Rails.application.routes.draw do
 
 
   get "homes/about" => "homes#about", as: "about"
-  resources :books, only: [:index, :show, :destroy]
-  resources :users, only: [:show, :edit, :index, :destroy]
+  resources :books, only: [:index, :show, :destroy, :create, :edit, :update]
+  resources :users, only: [:show, :edit, :index, :destroy, :update]
 end
