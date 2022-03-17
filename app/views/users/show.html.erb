@@ -1,3 +1,7 @@
+<p id="nitice">
+  <%= flash[:notice] %>
+</p>
+
 <div class="containers px-5 px-sm-0">
   <div class="row">
     <div class="col-md-3">
@@ -28,7 +32,7 @@
         </table>
 
       <div class="row">
-        <%= link_to "edit", edit_user_path(current_user), class: "btn btn-outline-secondary btn-block" %>
+        <%= link_to "edit", user_path(current_user), class: "btn btn-outline-secondary btn-block" %>
       </div>
 
       <h2 class="mt-3">New Book</h2>
